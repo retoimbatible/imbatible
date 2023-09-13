@@ -811,6 +811,13 @@ ul.nav > li > a.active{
 @media (max-width: 400px) {
     .about-content{
         text-align: center;
+        padding: 30px;
+    }
+
+    .item-winner{
+        margin: 0 2rem;
+        flex-direction: column;
+        gap: 2rem;
     }
     .about-section{
         /* background-color: red !important; */
@@ -826,6 +833,17 @@ ul.nav > li > a.active{
     .about-section .default-btn {
         display: none;
     }
+
+    .about-section{
+        padding: 0rem 0;
+    }
+
+    .portfolio-section{
+        padding-bottom: 0;
+        margin-bottom: 4rem;
+    }
+
+
   }
 
   @media (max-width: 1000px) {
@@ -835,6 +853,10 @@ ul.nav > li > a.active{
         justify-content: center;
         flex-direction: column;
       }
+
+      .about-section{
+        padding: 0rem 0;
+    }
   }
 
 
