@@ -809,6 +809,10 @@ ul.nav > li > a.active{
 
 
 @media (max-width: 400px) {
+
+    .btn-1{
+        display: none;
+    }
     .about-content{
         text-align: center;
         padding: 30px;
