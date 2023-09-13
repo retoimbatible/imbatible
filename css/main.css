@@ -592,7 +592,7 @@ ul.nav > li > a.active{
    About Section
    ========================================================================== */
 .about-section{
-    margin-bottom: 10rem;
+    padding: 10rem 0;
 }
 .about-wrap{
     display: flex;
@@ -711,7 +711,6 @@ ul.nav > li > a.active{
 .cta-section{}
 .cta-section{
     padding: 130px 0;
-    margin-bottom: 5rem;
 }
 .cta-section .cta-content h2{
     font-size: 40px;
