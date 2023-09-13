@@ -831,7 +831,7 @@ ul.nav > li > a.active{
     }
 
     .about-section .default-btn {
-        display: none;
+        /* display: none; */
     }
 
     .about-section{
