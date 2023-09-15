@@ -847,11 +847,25 @@ ul.nav > li > a.active{
         margin-bottom: 4rem;
     }
 
+.items_section{
+    margin-bottom: 4rem;
+}
 
+.navbar-brand{
+    margin: auto;
+}
+.mainmenu{
+    display: none;
+}
   }
 
   @media (max-width: 1000px) {
-    .grid-sponsors{
+
+
+    .mainmenu{
+        display: none;
+    }
+        .grid-sponsors{
         justify-content: center;
         gap: 5rem;
         justify-content: center;
@@ -909,4 +923,8 @@ ul.nav > li > a.active{
 
 .about-content ol{
     color: #bbb !important;
+}
+
+.navbar{
+    
 }
