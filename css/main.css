@@ -908,5 +908,5 @@ ul.nav > li > a.active{
 }
 
 .about-content ol{
-    color: #bbb;
+    color: #bbb !important;
 }
