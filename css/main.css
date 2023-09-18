@@ -886,13 +886,13 @@ ul.nav > li > a.active{
 
   .grid-sponsors{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
   }
 
   .grid-sponsors img{
-    height: 2rem;
+    height: 7rem;
   }
 
 
