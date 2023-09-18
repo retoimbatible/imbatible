@@ -601,6 +601,10 @@ ul.nav > li > a.active{
 .about-content{
     padding-right: 40px;
 }
+.about-content p{
+    text-align: justify;
+}
+
 .about-content .default-btn{
     margin-top: 20px;
 }
