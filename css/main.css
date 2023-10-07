@@ -949,3 +949,12 @@ ul.nav > li > a.active{
 .navbar{
     
 }
+
+.icon-instagram{
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    background-image: url(../img/instagram.png);
+    background-position: center center;
+    background-size: cover;
+}
