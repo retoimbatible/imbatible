@@ -510,8 +510,6 @@ ul.nav > li > a.active{
    Hero Section
    ========================================================================== */
 .hero-section{
-    /* background-image: url(../img/hero-background.jpg); */
-    /* background-image: url(../img/assets/bg-1.png); */
     background-image: url(../img/assets/bg-1_.png);
     
     background-repeat: no-repeat;
