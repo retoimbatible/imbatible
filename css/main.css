@@ -29,13 +29,26 @@
 /*  ==========================================================================
     Common Styles
     ========================================================================== */
+
+    @font-face {
+        font-family: 'OpenSans';
+        src: url('../fonts/opensans-bold.woff2') format('woff2'); 
+    }
+
+
+    @font-face {
+        font-family: 'Osswall';
+        src: url('../fonts/oswald-regular.woff2') format('woff2'); 
+    }
+
+
 *{
 	padding: 0;
 	margin: 0;
 }
 body{
     background-color: #050505;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'OpenSans', sans-serif;
     font-size: 15px;
     line-height: 23px;
     color: #777;
@@ -44,7 +57,7 @@ body{
     overflow-x: hidden;
 }
 h1, h2, h3, h4, h5, h6{
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Osswall', sans-serif;
     -webkit-font-smoothing:antialiased;
 	color: #333;
 }
@@ -260,7 +273,7 @@ button{
     margin: 5px;
 }
 .default-btn{
-    font-family: "Open Sans",sans-serif;
+    font-family: 'OpenSans',sans-serif;
     letter-spacing: 2px;
     background-color: #ff4c4c;
     color: #ddd;
@@ -402,7 +415,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
 .navbar-header .brand{
     font-size: 25px;
     color: #333;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'OpenSans', sans-serif;
     letter-spacing: -1px;
     font-weight: 600;
 	margin-left: 13px;
@@ -432,7 +445,7 @@ ul.nav{}
 ul.nav > li{}
 ul.nav > li > a{
     color: rgba(255, 255, 255, 0.9);
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'OpenSans', sans-serif;
     display: inline-block;
     vertical-align: middle;
     padding: 0 10px;
