@@ -965,6 +965,12 @@ ul.nav > li > a.active{
 .logo_sponsor{
     width: 8rem;
     height: auto;
+    transition: .2s all ease;
+}
+
+
+.logo_sponsor:hover{
+    width: 10rem;
 }
 
 #section_10 .title_section{
