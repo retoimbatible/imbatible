@@ -888,7 +888,7 @@ ul.nav > li > a.active{
     }
         .grid-sponsors{
         justify-content: center;
-        gap: 5rem;
+        gap: 2rem;
         justify-content: center;
         flex-direction: column;
       }
@@ -904,11 +904,14 @@ ul.nav > li > a.active{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    gap: 2rem;
   }
 
   .grid-sponsors img{
     height: 7rem;
   }
+
+
 
 
   .item-winner{
@@ -952,9 +955,20 @@ ul.nav > li > a.active{
 
 .icon-instagram{
     display: block;
-    width: 3rem;
-    height: 3rem;
+    width: 2.5rem;
+    height: 2.5rem;
     background-image: url(../img/instagram.png);
     background-position: center center;
     background-size: cover;
+}
+
+.logo_sponsor{
+    width: 8rem;
+    height: auto;
+}
+
+#section_10 .title_section{
+    font-size: 2rem ;
+    margin-top: 1rem ;
+    line-height: 2rem;
 }
